@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="turtlebot3_moniter" type="tb3_0_moniter" name="tb3_0_moniter_node" output="screen" />
+    <node pkg="turtlebot3_moniter" type="tb3_1_moniter_four" name="tb3_1_moniter_four_node" output="screen" />
+    <node pkg="turtlebot3_moniter" type="tb3_2_moniter" name="tb3_2_moniter_node" output="screen" />
+    <node pkg="turtlebot3_moniter" type="tb3_3_moniter" name="tb3_3_moniter_node" output="screen" />
+</launch>
